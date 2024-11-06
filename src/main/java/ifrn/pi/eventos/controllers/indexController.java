@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class indexController {
 
-	@RequestMapping ("/eventos/for,")
+	@RequestMapping ("/")
 	public String index() {
 		System.out.println("Chammou o metodo index");
 		return "home";
